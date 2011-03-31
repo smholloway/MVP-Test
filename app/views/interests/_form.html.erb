@@ -1,0 +1,11 @@
+<div id="email">
+<%= form_for(@interest) do |f| %>
+<div id="box">
+  <%= f.label 'email:' %>
+  <%= f.text_field :email %>
+</div>
+  <%= f.submit :value => "Remind Me" %>
+  <span style="clear:both"></span>
+<% end %>
+</div>
+

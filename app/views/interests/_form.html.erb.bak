@@ -1,0 +1,49 @@
+<div id="email">
+<%= form_for(@interest) do |f| %>
+  <!-- <fieldset> -->
+<div id="box">
+  <%= f.label 'email:' %>
+  <%= f.text_field :email %>
+</div>
+  <%= f.submit :value => "Remind Me" %>
+  <span style="clear:both"></span>
+<% end %>
+</div>
+
+<br/><div class="clear"></div>
+
+<div style="display:none">
+<%= form_for(@interest) do |f| %>
+<div id="email"> 
+<fieldset>
+  <span class="field">
+    <%= f.label 'email:' %>
+    <%= f.text_field :email %>
+  </span>
+</fieldset>
+  <span class="field">
+    <%= f.submit :value => "Remind Me" %>
+  </span>
+</div>
+<% end %>
+</div>
+
+<div style="display:none">
+<%= form_for(@interest) do |f| %>
+  <span class="field">
+    <%= f.text_field :email, :value => "email" %>
+  </span>
+  <span class="actions">
+    <%= f.submit :value => "Remind Me" %>
+  </span>
+  <br/>
+<% end %>
+</div>
+
+<div id="email" style="display:none">
+<fieldset> 
+  <label for='user_login'>username:</label> 
+  <input id="user_login" name="user[login]" size="20" type="text" /> 
+</fieldset>
+</div>
+

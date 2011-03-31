@@ -1,0 +1,252 @@
+html, body {
+  background: #EFEFEF url('/images/background.png') repeat right left;
+  background: #EEE url('/images/background.png') repeat right left;
+  font-family: Helvetica, Georgia, sans-serif;
+  font-size: 24px;
+  line-height: 1.5em;
+  color: #333;
+}
+#site {
+  margin: auto;
+  width: 960px;
+}
+
+#header {
+  margin: 30px 0;
+  text-align: center;
+}
+#header h1 {
+  font-size: 36px;
+}
+#header a, #footer a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#left {
+  margin: 10px;
+  width: 580px;
+  float: left;
+}
+
+#right {
+  margin: 120px 10px 10px;
+  width: 340px;
+  float: right;
+}
+
+#center {
+  width: 425px;
+  margin: 10px auto;
+}
+
+#footer {
+  margin: 30px 0;
+  border-top: 1px solid #CCC;
+  font-size: 13px;
+}
+
+.step {
+  margin: 20px auto;
+}
+.number {
+  background: #000;
+  color: #FFF;
+  padding: 3px;
+  border-radius: 60px;
+  width: 40px;
+  position: relative;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  text-align: center;
+}
+
+.button {
+  background: green url('/images/shadow-bottom.png') repeat-x bottom left;
+  color: #FFF;
+  border-radius: 5px;
+  height: 30px;
+  display: inline-block;
+  line-height: 20px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-color: white;
+  -moz-box-shadow: 0px 0px 5px #333;
+  -webkit-box-shadow: 0px 0px 5px #333;
+  box-shadow: 0px 0px 5px #333;
+}
+.button a {
+  margin: 6px;
+  color: #FFF;
+  text-shadow: 0px 1px 1px #333;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: block;
+  top: 0;
+  left: 0;
+}
+.button a:hover {
+  margin: 6px;
+  color: #EFEFEF;
+  text-shadow: 0px 1px 1px #000;
+  line-height: 20px;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: block;
+  top: 0;
+  left: 0;
+}
+.signup {
+  cursor: pointer;
+  background: green url('/images/shadow-bottom.png') repeat-x bottom left;
+  color: #FFF;
+  border-radius: 5px;
+  height: 30px;
+  display: inline-block;
+  line-height: 16px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-color: white;
+  width: 290px;
+  text-align: center;
+  margin: 10px auto;
+  -moz-box-shadow: 0px 0px 5px #555;
+  -webkit-box-shadow: 0px 0px 5px #555;
+  box-shadow: 0px 0px 5px #555;
+}
+.signup a {
+  color: #FFF;
+  text-shadow: 0px 1px 1px #333;
+  line-height: 20px;
+  text-decoration: none;
+  margin: 6px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+}
+.signup a:hover {
+  color: #FFF;
+  text-shadow: 0px 1px 1px #000;
+  line-height: 20px;
+  text-decoration: none;
+  margin: 6px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+}
+.
+.clear {
+  clear: both;
+}
+
+#email {
+  clear: both;
+  vertical-align: baseline;
+}
+#box {
+  vertical-align: baseline;
+  border: 2px groove #CCC;
+  border-radius: 5px;
+  background: #FFF;
+  display: inline-block;
+  height: 18px;
+  margin: 0;
+  padding: 5px;
+  clear: both;
+  width: 300px;
+}
+#box label {
+  float: left;
+  width: 50px;
+  line-height: 18px;
+  font-size: 15px;
+  color: #666;
+  padding-left: 4px;
+}
+#box input[type="text"] {
+  width: 230px;
+  font-size: 15px;
+  height: 18px;
+  line-height: 18px;
+  float: left;
+  border: none;
+  padding: 0px;
+  outline: none;
+  border-color: white;
+}
+#email input[type="submit"] {
+  cursor: pointer;
+  background: green url('/images/shadow-bottom.png') repeat-x bottom left;
+  text-shadow: 0px 1px 1px #333;
+  color: #FFF;
+  border-radius: 5px;
+  height: 30px;
+  line-height: 16px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-color: white;
+  float: right;
+  -moz-box-shadow: 0px 0px 5px #333;
+  -webkit-box-shadow: 0px 0px 5px #333;
+  box-shadow: 0px 0px 5px #333;
+}
+#email input[type="submit"]:hover {
+  text-shadow: 0px 1px 1px #000;
+}
+
+.plan {
+  float: left;
+  width: 300px;
+  margin: 10px;
+}
+
+.price {
+  margin: 10px auto;
+  padding: 5px;
+  background: #333;
+  color: #FFF;
+  border-radius: 5px;
+}
+.description {
+  margin: 10px auto;
+  padding: 5px;
+  background: #CCC;
+  color: #333;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.name {
+  text-align: left;
+  border-bottom: 1px solid #CCC;
+}
+.cost {
+  text-align: center;
+  font-size: 42px;
+  margin: 20px auto;
+}
+.who {
+  text-align: center;
+  border-top: 1px solid #CCC;
+}
+.dollar {
+  vertical-align: top;
+}
+strong {
+  font-size: 64px;
+}

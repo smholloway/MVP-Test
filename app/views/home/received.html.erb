@@ -1,0 +1,13 @@
+<div id="left" style="display:none">
+  <h2 id="1">Add tweets to your buffer.</h2>
+  <h2 id="2">Relax. We'll take care of the rest.</h2>
+</div> <!-- div#left -->
+
+<div style="clear:both"></div>
+
+<div id="center">
+  <span> Thanks! We will get back to you soon.</span>
+  <% if flash[:notice] %>
+    <div style="text-align:center"><code><%= flash[:notice] %></code></div>
+  <% end %>
+</div> <!-- div#center -->
