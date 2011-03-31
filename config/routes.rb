@@ -1,5 +1,5 @@
 MVPTest::Application.routes.draw do
-  resources :interests, :only => :new
+  resources :interests, :only => [:new, :create]
 
   match 'home' => 'home#index', :as => :home
   match 'pricing' => 'home#pricing', :as => :pricing
